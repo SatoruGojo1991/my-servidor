@@ -227,3 +227,15 @@
 [22:46:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=430, y=64, z=396} class_2338{x=429, y=62, z=396}
 [22:51:58] [Server thread/INFO]: r3beld3s has made the advancement [Acquire Hardware]
 [23:00:08] [Server thread/INFO]: r3beld3s has made the advancement [Stone Age]
+[23:03:14] [Server thread/INFO]: r3beld3s has made the advancement [Monster Hunter]
+[23:03:17] [Server thread/INFO]: r3beld3s was slain by Spider
+[23:03:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7540ms or 150 ticks behind
+[23:03:34] [Server thread/INFO]: [r3beld3s: Set own game mode to Spectator Mode]
+[23:04:22] [Server thread/INFO]: [r3beld3s: Gamerule keepInventory is now set to: true]
+[23:05:36] [Server thread/INFO]: [r3beld3s: Teleported r3beld3s to 931.500000, 70.500000, 815.500000]
+[23:05:43] [Server thread/INFO]: [r3beld3s: Set own game mode to Creative Mode]
+[23:06:13] [Server thread/INFO]: [r3beld3s: Set own game mode to Survival Mode]
+[23:07:40] [Server thread/INFO]: r3beld3s was slain by Zombie
+[23:07:52] [Server thread/INFO]: [r3beld3s: Teleported r3beld3s to 908.500000, 70.500000, 813.500000]
+[23:11:04] [Server thread/INFO]: r3beld3s was slain by Zombie
+[23:11:16] [Server thread/INFO]: [r3beld3s: Teleported r3beld3s to 938.500000, 67.500000, 739.500000]
