@@ -1,128 +1,227 @@
-[21:14:01] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at ahi.b(SourceFile:62) ~[server-1.20.1.jar:?]
-	at ahf.a(SourceFile:137) ~[server-1.20.1.jar:?]
-	at ahg.<init>(SourceFile:12) ~[server-1.20.1.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:115) ~[server-1.20.1.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:14:01] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:14:04] [ServerMain/INFO]: Loaded 7 recipes
-[21:14:04] [ServerMain/INFO]: Loaded 1271 advancements
-[21:14:04] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:14:04] [Server thread/INFO]: Loading properties
-[21:14:04] [Server thread/INFO]: Default game type: SURVIVAL
-[21:14:04] [Server thread/INFO]: Generating keypair
-[21:14:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:14:05] [Server thread/INFO]: Using epoll channel type
-[21:14:05] [Server thread/INFO]: Preparing level "world"
-[21:14:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:14:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:14:48] [Worker-Main-5/INFO]: Preparing spawn area: 1%
-[21:14:48] [Worker-Main-5/INFO]: Preparing spawn area: 9%
-[21:14:49] [Worker-Main-5/INFO]: Preparing spawn area: 9%
-[21:14:49] [Worker-Main-5/INFO]: Preparing spawn area: 16%
-[21:14:50] [Worker-Main-5/INFO]: Preparing spawn area: 33%
-[21:14:50] [Worker-Main-5/INFO]: Preparing spawn area: 36%
-[21:14:51] [Worker-Main-5/INFO]: Preparing spawn area: 38%
-[21:14:51] [Worker-Main-5/INFO]: Preparing spawn area: 53%
-[21:14:52] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[21:14:52] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[21:14:53] [Worker-Main-5/INFO]: Preparing spawn area: 70%
-[21:14:53] [Worker-Main-5/INFO]: Preparing spawn area: 71%
-[21:14:54] [Worker-Main-5/INFO]: Preparing spawn area: 73%
-[21:14:54] [Worker-Main-5/INFO]: Preparing spawn area: 74%
-[21:14:55] [Worker-Main-5/INFO]: Preparing spawn area: 76%
-[21:14:55] [Worker-Main-5/INFO]: Preparing spawn area: 77%
-[21:14:56] [Worker-Main-5/INFO]: Preparing spawn area: 77%
-[21:14:56] [Worker-Main-5/INFO]: Preparing spawn area: 79%
-[21:14:57] [Worker-Main-5/INFO]: Preparing spawn area: 81%
-[21:14:57] [Worker-Main-5/INFO]: Preparing spawn area: 82%
-[21:14:58] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[21:14:58] [Worker-Main-5/INFO]: Preparing spawn area: 84%
-[21:14:59] [Worker-Main-5/INFO]: Preparing spawn area: 85%
-[21:14:59] [Worker-Main-5/INFO]: Preparing spawn area: 87%
-[21:15:00] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[21:15:00] [Worker-Main-5/INFO]: Preparing spawn area: 90%
-[21:15:01] [Worker-Main-5/INFO]: Preparing spawn area: 91%
-[21:15:01] [Worker-Main-5/INFO]: Preparing spawn area: 93%
-[21:15:02] [Worker-Main-5/INFO]: Preparing spawn area: 95%
-[21:15:02] [Worker-Main-5/INFO]: Preparing spawn area: 96%
-[21:15:03] [Worker-Main-5/INFO]: Preparing spawn area: 98%
-[21:15:03] [Server thread/INFO]: Time elapsed: 46988 ms
-[21:15:03] [Server thread/INFO]: Done (58.327s)! For help, type "help"
-[21:20:52] [User Authenticator #1/INFO]: UUID of player r3beld3s is f8974c59-951d-4a4e-9aa3-700b407118a8
-[21:20:52] [Server thread/INFO]: r3beld3s[/100.103.226.64:54636] logged in with entity id 397 at (-226.5, 67.0, -9.5)
-[21:20:52] [Server thread/INFO]: r3beld3s joined the game
-[21:21:29] [Server thread/INFO]: Made r3beld3s a server operator
-[21:21:34] [Server thread/INFO]: [r3beld3s: Set own game mode to Creative Mode]
+[22:31:46] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.16.2
+[22:31:46] [main/INFO]: Loading 48 mods:
+	- architectury 4.1.36
+	- carpet 1.4.68
+	- carpet-extra 1.4.64
+	- cloth-config 6.2.57
+	   \-- cloth-basic-math 0.6.0
+	- fabric 0.48.0+1.18.2
+	   |-- fabric-api-base 0.4.4+d7c144a860
+	   |-- fabric-api-lookup-api-v1 1.5.7+d7c144a860
+	   |-- fabric-biome-api-v1 8.0.3+801ec85b60
+	   |-- fabric-blockrenderlayer-v1 1.1.12+3ac43d9560
+	   |-- fabric-command-api-v1 1.1.9+d7c144a860
+	   |-- fabric-commands-v0 0.2.8+b4f4f6cd60
+	   |-- fabric-containers-v0 0.1.21+d7c144a860
+	   |-- fabric-content-registries-v0 3.0.2+d82b939260
+	   |-- fabric-crash-report-info-v1 0.1.11+3ac43d9560
+	   |-- fabric-dimensions-v1 2.1.17+2540745460
+	   |-- fabric-entity-events-v1 1.4.8+d7c144a860
+	   |-- fabric-events-interaction-v0 0.4.19+d7c144a860
+	   |-- fabric-events-lifecycle-v0 0.2.13+d7c144a860
+	   |-- fabric-game-rule-api-v1 1.0.13+d7c144a860
+	   |-- fabric-item-api-v1 1.3.3+691a79b560
+	   |-- fabric-item-groups-v0 0.3.10+3ac43d9560
+	   |-- fabric-key-binding-api-v1 1.0.12+54e5b2ec60
+	   |-- fabric-keybindings-v0 0.2.10+b4f4f6cd60
+	   |-- fabric-lifecycle-events-v1 2.0.2+2540745460
+	   |-- fabric-loot-tables-v1 1.0.11+d7c144a860
+	   |-- fabric-mining-level-api-v1 2.0.4+d1027f7d60
+	   |-- fabric-models-v0 0.3.6+d7c144a860
+	   |-- fabric-networking-api-v1 1.0.21+d882b91560
+	   |-- fabric-networking-v0 0.3.8+b4f4f6cd60
+	   |-- fabric-object-builder-api-v1 2.0.3+40c91ec860
+	   |-- fabric-particles-v1 0.2.12+526dc1ac60
+	   |-- fabric-registry-sync-v0 0.9.8+0d9ab37260
+	   |-- fabric-renderer-api-v1 0.4.13+d882b91560
+	   |-- fabric-renderer-indigo 0.4.17+d8c7b9ae60
+	   |-- fabric-renderer-registries-v1 3.2.11+b4f4f6cd60
+	   |-- fabric-rendering-data-attachment-v1 0.3.7+d7c144a860
+	   |-- fabric-rendering-fluids-v1 2.0.2+54e5b2ec60
+	   |-- fabric-rendering-v0 1.1.13+b4f4f6cd60
+	   |-- fabric-rendering-v1 1.10.7+54e5b2ec60
+	   |-- fabric-resource-conditions-api-v1 2.0.2+d1027f7d60
+	   |-- fabric-resource-loader-v0 0.4.18+2de5574560
+	   |-- fabric-screen-api-v1 1.0.10+d882b91560
+	   |-- fabric-screen-handler-api-v1 1.1.14+40c91ec860
+	   |-- fabric-textures-v0 1.0.12+3ac43d9560
+	   |-- fabric-transfer-api-v1 1.5.14+cca23f9360
+	   \-- fabric-transitive-access-wideners-v1 1.0.0+40c91ec860
+	- fabricloader 0.16.2
+	   \-- mixinextras 0.4.1
+	- java 21
+	- lazydfu 0.1.2
+	- lithium 0.7.9
+	- minecraft 1.18.2
+	- phosphor 0.8.1
+	- roughlyenoughitems 8.0.442
+	- shuffle 4.0.0
+	- worldedit 7.2.10+1742f98
+	- xaerominimap 22.3.1.1
+	- xaeroworldmap 1.20.5
+[22:31:46] [main/WARN]: Found 1 non-fabric mod:
+	- appleskin-forge-mc1.18-2.4.0.jar
+[22:31:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/my-servidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:31:46] [main/INFO]: Compatibility level set to JAVA_16
+[22:31:46] [main/INFO]: Compatibility level set to JAVA_17
+[22:31:46] [main/INFO]: Loaded configuration file for Lithium: 100 options available, 0 override(s) found
+[22:31:47] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[22:31:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:31:49] [main/WARN]: Method overwrite conflict for getLanguage in worldedit-fabric.mixins.json:MixinServerPlayer from mod worldedit, previously written by carpet.mixins.ServerPlayer_scarpetEventMixin. Skipping method.
+[22:31:53] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin from mod fabric-lifecycle-events-v1::handler$zpo000$fabric-lifecycle-events-v1$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[22:31:56] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[22:31:56] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[22:31:56] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[22:31:56] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[22:31:56] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[22:31:56] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[22:31:57] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@9177860]
+[22:31:57] [main/INFO]: WorldEdit for Fabric (version 7.2.10+1742f98) is loaded
+[22:31:57] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[22:31:57] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[22:31:57] [main/ERROR]: Failed to load properties from file: server.properties
+[22:31:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:31:59] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[22:31:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:31:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:31:59] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:31:59] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:31:59] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:32:00] [Worker-Main-1/INFO]: Loaded 7 recipes
+[22:32:00] [Worker-Main-1/INFO]: Loaded 1141 advancements
+[22:32:00] [Worker-Main-1/INFO]: Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[22:32:00] [Worker-Main-1/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 28ms.
+[22:32:00] [Worker-Main-1/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[22:32:00] [Worker-Main-1/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 0 menu infos in 6ms.
+[22:32:00] [Worker-Main-1/INFO]: Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[22:32:00] [Worker-Main-1/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 28ms.
+[22:32:00] [Worker-Main-1/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[22:32:00] [Worker-Main-1/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 4 menu infos in 12ms.
+[22:32:02] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 3.153 ms
+[22:32:02] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[22:32:02] [Server thread/INFO]: Loading properties
+[22:32:02] [Server thread/INFO]: Default game type: SURVIVAL
+[22:32:02] [Server thread/INFO]: Generating keypair
+[22:32:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:32:02] [Server thread/INFO]: Using epoll channel type
+[22:32:02] [Server thread/INFO]: Preparing level "world"
+[22:32:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:32:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:33:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:33:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:33:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:33:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:33:02] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[22:33:02] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[22:33:03] [Worker-Main-1/INFO]: Preparing spawn area: 26%
+[22:33:04] [Worker-Main-1/INFO]: Preparing spawn area: 35%
+[22:33:04] [Worker-Main-1/INFO]: Preparing spawn area: 44%
+[22:33:04] [Worker-Main-1/INFO]: Preparing spawn area: 54%
+[22:33:05] [Worker-Main-1/INFO]: Preparing spawn area: 70%
+[22:33:05] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[22:33:07] [Server thread/INFO]: Time elapsed: 52569 ms
+[22:33:07] [Server thread/INFO]: Done (64.940s)! For help, type "help"
+[22:33:09] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[22:33:09] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[22:33:18] [Server thread/INFO]: Made r3beld3s a server operator
+[22:36:08] [User Authenticator #1/INFO]: UUID of player r3beld3s is f8974c59-951d-4a4e-9aa3-700b407118a8
+[22:36:08] [Server thread/INFO]: r3beld3s[/100.103.226.64:55651] logged in with entity id 529 at (-9.5, 73.0, 8.5)
+[22:36:08] [Server thread/INFO]: r3beld3s joined the game
+[22:36:17] [Netty Epoll Server IO #3/INFO]: Player r3beld3s joined with a matching carpet client
+[22:43:50] [Server thread/INFO]: r3beld3s has made the advancement [Sweet Dreams]
+[22:44:55] [Server thread/INFO]: r3beld3s has made the advancement [Isn't It Iron Pick]
+[22:44:57] [Server thread/INFO]: r3beld3s has made the advancement [Suit Up]
+[22:46:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=429, y=64, z=375} class_2338{x=430, y=62, z=375}
+[22:46:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=448, y=64, z=369} class_2338{x=448, y=62, z=368}
+[22:46:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=448, y=64, z=369} class_2338{x=448, y=62, z=368}
+[22:46:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=430, y=64, z=396} class_2338{x=429, y=62, z=396}
